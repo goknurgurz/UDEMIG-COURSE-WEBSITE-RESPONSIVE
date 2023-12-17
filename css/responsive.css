@@ -1,0 +1,111 @@
+@media  screen and (max-width: 770px){ 
+    .navbar{
+        width: 90%;
+    }
+    .logo h2 a{
+        font-size: 20px;
+    }
+    #menuBar{
+        display: grid;
+        color: antiquewhite;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid white;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+    cursor: pointer;
+
+    }
+    .navLinks {
+        flex-direction: column;
+        position: absolute;
+        background: #caa1bf;
+        width: 100%;
+        left: 0;
+        padding: 0;
+      }
+      .navLinks li a {
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+      }
+      .navLinks li:last-child a {
+        border-bottom: none;
+      }
+      .innerAnasayfa {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+      }
+      .childAnasayfa{
+        flex-basis: 100%;
+      }
+      .childAnasayfa:last-child{
+        margin-bottom: 20px;
+      }
+    
+   
+      .childAnasayfa h1 {
+        font-size: 30px;
+        line-height: 35px;
+      }
+      .childAnasayfa p {
+        font-size: 20px;
+      }
+      /* yazılımlar*/
+  .innerYazilimlarChild {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  /* sertifikalarım*/
+  .childCourses {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* başarılar*/
+  .childAchivement {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .singleDetail{
+    flex-basis: 100%;
+  }
+  .childAchivement .sd3 {
+    margin-bottom: 20px;
+  }
+
+  /* hakkımda */
+  .childTesti {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+  .childTesti:last-child {
+    margin-bottom: 0;
+  }
+
+  /*iletişim*/
+  .childContact {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* footer*/
+  .childFooter {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .childFooter h3 {
+    margin-bottom: 10px;
+  }
+  .childFooter {
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+     
+}
